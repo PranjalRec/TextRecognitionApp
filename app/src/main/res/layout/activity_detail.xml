@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/v1"
+                android:layout_marginTop="20dp"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v2"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v3"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v4"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v5"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v6"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v7"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v8"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v9"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+                <View
+                    android:id="@+id/v10"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="400dp"
+                    android:layout_height="50dp"
+                    android:background="#dddddd" />
+
+
+
+                <TextView
+                    android:id="@+id/textViewResult"
+                    android:textIsSelectable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/alata"
+                    android:text="Please Wait"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/clickAgain"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Click Again"/>
+
+                    <Button
+                        android:id="@+id/copy"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Copy"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
